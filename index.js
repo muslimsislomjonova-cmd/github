@@ -2,6 +2,10 @@ const input = document.querySelector("#username");
 const btn = document.querySelector("#btn");
 const result = document.querySelector("#result");
 
+
+const TOKEN = "ghp_YOURTOKENHERE";
+
+
 btn.addEventListener("click", () => {
 
     const username = input.value;
